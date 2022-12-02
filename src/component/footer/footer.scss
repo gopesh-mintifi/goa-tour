@@ -1,0 +1,18 @@
+.footerSection{
+    background-color: #1c234d;
+    color:white;
+
+    .card-title{
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .flex-column a{
+        list-style: none;
+        color:white;
+        padding-left: 0px;
+    }
+    .follow img{
+        width: 35px;
+        padding:7px
+    }
+}

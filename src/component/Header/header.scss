@@ -1,0 +1,20 @@
+.header-div{
+    background-image: linear-gradient(to right, #0e0e2b, #418080);
+
+    .logo{
+        height: 72px;
+        width: 74px;
+        border-radius: 78px;
+        margin: 10px;
+    }
+    .listHeader{
+        font-size: 24px;
+        li{
+            padding:20px;
+        }
+         li a{
+            list-style: none;
+            color:white;
+        }
+    }
+}
