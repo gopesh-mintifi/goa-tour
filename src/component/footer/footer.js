@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Nav, Image } from 'react-bootstrap';
 import './footer.scss';
+// import HomeSvg from '../../Images/home.svg';
 function Footer() {
     return (
         <div className="footerSection">
@@ -17,19 +18,19 @@ function Footer() {
                         <ul class="list-unstyled">
                             <li>
                                 <p>
-                                    <Image src={'/Images/home.svg'} /> New York, NY 10012, US</p>
+                                    <Image src={'/goa-tour/Images/home.svg'} /> New York, NY 10012, US</p>
                             </li>
                             <li>
                                 <p>
-                                    <Image src={'/Images/mail.svg'} /> info@example.com</p>
+                                    <Image src={'/goa-tour/Images/mail.svg'} /> info@example.com</p>
                             </li>
                             <li>
                                 <p>
-                                    <Image src={'/Images/call.svg'} /> + 01 234 567 88</p>
+                                    <Image src={'/goa-tour/Images/call.svg'} /> + 01 234 567 88</p>
                             </li>
                             <li>
                                 <p>
-                                    <Image src={'/Images/fax.svg'} /> + 01 234 567 89</p>
+                                    <Image src={'/goa-tour/Images/fax.svg'} /> + 01 234 567 89</p>
                             </li>
                         </ul>
                     </Col>
@@ -45,22 +46,22 @@ function Footer() {
                         <ul class="list-unstyled follow">
                             <li>
                                 <a href='http://facebook.com'>
-                                    <Image src={'/Images/facebook.svg'} />
+                                    <Image src={'/goa-tour/Images/facebook.svg'} />
                                 </a>
                             </li>
                             <li>
                                 <a href='http://instagram.com'>
-                                    <Image src={'/Images/instagram.svg'} />
+                                    <Image src={'/goa-tour/Images/instagram.svg'} />
                                 </a>
                             </li>
                             <li>
                                 <a href='http://google.com'>
-                                    <Image src={'/Images/google.svg'} />
+                                    <Image src={'/goa-tour/Images/google.svg'} />
                                 </a>
                             </li>
                             <li>
                                 <a href='http://twitter.com'>
-                                    <Image src={'/Images/twitter.svg'} />
+                                    <Image src={'/goa-tour/Images/twitter.svg'} />
                                 </a>
                             </li>
                         </ul>

@@ -6,7 +6,7 @@ return(
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/Images/pic5.avif"
+          src="/goa-tour/Images/pic5.avif"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ return(
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/Images/beaches-goa.webp"
+          src="/goa-tour/Images/beaches-goa.webp"
           alt="Second slide"
         />
 
@@ -29,7 +29,7 @@ return(
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/Images/pic2.jpg"
+          src="/goa-tour/Images/pic2.jpg"
           alt="Third slide"
         />
 

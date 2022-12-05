@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Activities (){
     const navigate = useNavigate();
     const goToSchedule = () => {
-        navigate("/schedule");
+        navigate("/goa-tour/schedule");
     }
 return(
     <div className="activities">
@@ -13,7 +13,7 @@ return(
             <Row>
                 <Col xs={12} sm={6} lg={4} className="mt-4">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" height="200px" src="/Images/Culture-of-Goa.jpg" />
+                    <Card.Img variant="top" height="200px" src="/goa-tour/Images/Culture-of-Goa.jpg" />
                     <Card.Body>
                         <Card.Title>Cultural Exploration</Card.Title>
                         <Card.Text>
@@ -25,7 +25,7 @@ return(
                 </Col>
                 <Col xs={12} sm={6} lg={4} className="mt-4">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" height="200px" src="/Images/local-market.webp" />
+                    <Card.Img variant="top" height="200px" src="/goa-tour/Images/local-market.webp" />
                     <Card.Body>
                         <Card.Title>Local market</Card.Title>
                         <Card.Text>
@@ -37,7 +37,7 @@ return(
                 </Col>
                 <Col xs={12} sm={6} lg={4} className="mt-4">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" height="200px" src="/Images/Mandovi River.jpeg" />
+                    <Card.Img variant="top" height="200px" src="/goa-tour/Images/Mandovi River.jpeg" />
                     <Card.Body>
                         <Card.Title>Mandovi River</Card.Title>
                         <Card.Text>
@@ -49,7 +49,7 @@ return(
                 </Col>
                 <Col xs={12} sm={6} lg={4} className="mt-4">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" height="200px" src="/Images/waterSport.jpg" />
+                    <Card.Img variant="top" height="200px" src="/goa-tour/Images/waterSport.jpg" />
                     <Card.Body>
                         <Card.Title>Water sports at Grand island </Card.Title>
                         <Card.Text>
@@ -61,7 +61,7 @@ return(
                 </Col>
                 <Col xs={12} sm={6} lg={4} className="mt-4">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" height="200px" src="/Images/club.webp" />
+                    <Card.Img variant="top" height="200px" src="/goa-tour/Images/club.webp" />
                     <Card.Body>
                         <Card.Title>Clubbing at Tito's lane </Card.Title>
                         <Card.Text>
@@ -73,7 +73,7 @@ return(
                 </Col>
                 <Col xs={12} sm={6} lg={4} className="mt-4">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" height="200px" src="/Images/bagaBeach.webp" />
+                    <Card.Img variant="top" height="200px" src="/goa-tour/Images/bagaBeach.webp" />
                     <Card.Body>
                         <Card.Title>Baga Beach</Card.Title>
                         <Card.Text>

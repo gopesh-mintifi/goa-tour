@@ -16,8 +16,8 @@ return(
         <Router>
             <Suspense fallback={"loading"}>
             <Routes>
-                <Route path="/" element={<Activities/>} />
-                <Route path="/schedule" element={<Schedule/>} />
+                <Route path="/goa-tour" element={<Activities/>} />
+                <Route path="/goa-tour/schedule" element={<Schedule/>} />
             </Routes>
             </Suspense>
         </Router>
